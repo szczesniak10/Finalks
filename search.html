@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+    <title>Movie Information!</title>
+  </head>
+  <body>
+    <h1><strong>The Movie Library</strong></h1>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+        <a class="navbar-brand" href="home.html"><strong>Cinema Library</strong></a>
+        <button class="navbar-toggler" type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="navbar-nav">
+            <a class="nav-item  nav-link" href="home.html">Home</a>
+            <a class="nav-item active nav-link" href="#">Movie Search</a>
+          </div>
+        </div>
+      </nav>
+      </div>
+
+    <div class="container">
+      <div class="jumbotron">
+        <h3 class="text-center"><strong>Find Any Movie</strong></h3>
+        <form id="searchForm">
+          <input type="text" class="form-control" id="searchText" placeholder="Search for Movies...">
+        </form>
+        <br>
+        <div class="img5">
+          <img src="images/searchimg.jpg" class="img-thumbnail" alt="PoweredBy">
+        </div>
+
+      </div>
+    </div>
+    <div class="container">
+      <div id="movies" class="row">
+        <h4><strong>Movies List</strong></h4>
+        <table id="dataTable" class="table table-hover">
+          <thead>
+            <tr>
+              <th>Cover</th>
+              <th>Title</th>
+              <th> Description</th>
+              <th>Release Data</th>
+              <th>Rating</th>
+            </tr>
+          </thead>
+          <tbody>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <footer class="footer">
+       <div class="container">
+         <span class="text-muted">Data Provided by <a href="https://www.themoviedb.org/" target="_blank">tMDB</a></span>
+          <div class="img7">
+            <img src="images/img.png" class="img-thumbnail" alt="PoweredBy">
+          </div>
+       </div>
+  </footer>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

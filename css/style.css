@@ -1,0 +1,68 @@
+body{
+  background:linear-gradient(110deg, #87ceeb 60%, #0099ff 60%);
+}
+
+.img1,.img7 {
+  width:100px;
+  opacity: .7;
+}
+
+.img2{
+  width: 500px;
+  float:center;
+  opacity: .8;
+  object-fit:contain;
+}
+
+.img3{
+  width: 400px;
+  float: center;
+  opacity: .8;
+  object-fit:contain;
+}
+
+h1{
+  font-family: 'Pacifico', cursive ;
+  font-size: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:#003366;
+
+}
+
+h6,h3,h4{
+  font-family: 'Pacifico', cursive ;
+  font-size: 30px;
+}
+
+th{
+  font-family: 'Pacifico', cursive ;
+  font-size: 20px;
+}
+
+p{
+  font-family: 'Pacifico', cursive ;
+  font-size: 15px;
+}
+
+.jumbotron{
+   background-color: #66ffcc;
+   border-radius: 25px;
+   padding: 20px;
+}
+
+.list-group-item{
+     background-color: #66ffcc;
+     font-family: 'Pacifico', cursive ;
+}
+
+.navbar-brand{
+  font-family: 'Pacifico', cursive ;
+  font-size:35px;
+}
+
+.nav-item{
+  font-family: 'Pacifico', cursive ;
+  font-size:20px;
+}
